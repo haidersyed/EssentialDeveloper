@@ -15,7 +15,7 @@ class RemoteFeedLoader {
         client.get(from: URL(string:"https://a-url.com")!)
     }
 }
-hello testingModes
+
 
 class HTTPClient {
     static var shared = HTTPClient()
