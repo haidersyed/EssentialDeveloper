@@ -10,6 +10,7 @@
 		C42ACC452A8A624B008F1662 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42ACC442A8A624B008F1662 /* FeedItem.swift */; };
 		C42ACC472A8A631C008F1662 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42ACC462A8A631C008F1662 /* FeedLoader.swift */; };
 		C42ACC4C2A8D3729008F1662 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42ACC4B2A8D3729008F1662 /* RemoteFeedLoaderTests.swift */; };
+		C42ACC4F2A90E54C008F1662 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42ACC4E2A90E54C008F1662 /* RemoteFeedLoader.swift */; };
 		C45EDD1D2A40496500B75E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDD1C2A40496500B75E74 /* AppDelegate.swift */; };
 		C45EDD1F2A40496500B75E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDD1E2A40496500B75E74 /* SceneDelegate.swift */; };
 		C45EDD212A40496500B75E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45EDD202A40496500B75E74 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		C42ACC442A8A624B008F1662 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		C42ACC462A8A631C008F1662 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		C42ACC4B2A8D3729008F1662 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
+		C42ACC4E2A90E54C008F1662 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RemoteFeedLoader.swift; path = ../../../../SwiftEssentialDeveloper/SwiftEssentialDeveloperTests/RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		C45EDD192A40496500B75E74 /* SwiftEssentialDeveloper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEssentialDeveloper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45EDD1C2A40496500B75E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45EDD1E2A40496500B75E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		C42ACC432A8A6228008F1662 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
+				C42ACC4D2A90E530008F1662 /* Feed Api */,
 				C42ACC482A8A77A7008F1662 /* Feed Feature */,
 			);
 			path = EssentialFeed;
@@ -99,6 +102,14 @@
 				C42ACC462A8A631C008F1662 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
+		C42ACC4D2A90E530008F1662 /* Feed Api */ = {
+			isa = PBXGroup;
+			children = (
+				C42ACC4E2A90E54C008F1662 /* RemoteFeedLoader.swift */,
+			);
+			path = "Feed Api";
 			sourceTree = "<group>";
 		};
 		C45EDD102A40496500B75E74 = {
@@ -288,6 +299,7 @@
 			files = (
 				C42ACC472A8A631C008F1662 /* FeedLoader.swift in Sources */,
 				C45EDD212A40496500B75E74 /* ViewController.swift in Sources */,
+				C42ACC4F2A90E54C008F1662 /* RemoteFeedLoader.swift in Sources */,
 				C45EDD1D2A40496500B75E74 /* AppDelegate.swift in Sources */,
 				C45EDD4D2A40A4D900B75E74 /* Dependency.swift in Sources */,
 				C42ACC452A8A624B008F1662 /* FeedItem.swift in Sources */,
