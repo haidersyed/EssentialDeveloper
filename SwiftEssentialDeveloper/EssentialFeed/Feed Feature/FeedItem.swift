@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct FeedItem {
-    let id: UUID
-    let description: String?
-    let location: String?
-    let imageURL: URL
+internal struct FeedItem: Decodable {
+    internal let id: UUID
+    internal let description: String?
+    internal let location: String?
+    internal let image: URL
 }

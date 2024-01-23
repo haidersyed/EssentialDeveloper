@@ -1,14 +1,14 @@
 //
-//  SwiftEssentialDeveloperTests.swift
-//  SwiftEssentialDeveloperTests
+//  EssentialFeedTests.swift
+//  EssentialFeedTests
 //
-//  Created by Haider Rizvi on 19/06/2023.
+//  Created by Haider Rizvi on 22/01/2024.
 //
 
 import XCTest
 @testable import SwiftEssentialDeveloper
 
-final class SwiftEssentialDeveloperTests: XCTestCase {
+final class EssentialFeedTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

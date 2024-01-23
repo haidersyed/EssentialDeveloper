@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1430"
+   LastUpgradeVersion = "1500"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -48,6 +48,17 @@
                BlueprintIdentifier = "C45EDD382A40496600B75E74"
                BuildableName = "SwiftEssentialDeveloperUITests.xctest"
                BlueprintName = "SwiftEssentialDeveloperUITests"
+               ReferencedContainer = "container:SwiftEssentialDeveloper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C4C9E89D2B5EC610006BA191"
+               BuildableName = "EssentialFeedTests.xctest"
+               BlueprintName = "EssentialFeedTests"
                ReferencedContainer = "container:SwiftEssentialDeveloper.xcodeproj">
             </BuildableReference>
          </TestableReference>
