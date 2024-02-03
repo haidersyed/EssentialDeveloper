@@ -2,7 +2,7 @@
 //  EssentialFeed.h
 //  EssentialFeed
 //
-//  Created by Haider Rizvi on 22/01/2024.
+//  Created by Haider on 21/11/2021.
 //
 
 #import <Foundation/Foundation.h>
